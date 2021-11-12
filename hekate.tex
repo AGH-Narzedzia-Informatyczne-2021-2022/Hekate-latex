@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}       % Obrazki
+\usepackage{xcolor}         % Kolorowy tekst
+\usepackage{newtxsf}
+\usepackage[figurename=Grafika,tablename=Tabela]{caption} % Podpisywanie obrazków jako "Grafika" zamiast "Figure"
+\renewcommand\familydefault{\sfdefault}  % Zamiana czcionki na bezszeryfową
+\usepackage{gensymb} % \degree; symbol stopni
+\usepackage{multirow} % Do tabelki potrzebne
+
+\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
+
+\title{Hekate}
+\author{Olgierd Piofczyk\\Eryk Mikołajek\\Jakub Kubicki\\Julia Maciaszek}
+\date{October 2021}
+
+\begin{document}
+\maketitle
+
+\newpage
+\input{chapters/JuliaMaciaszek.tex}
+
+\newpage
+\input{chapters/OlgierdPiofczyk}
+
+\newpage
+\input{chapters/ErykMikolajek.tex}
+
+\newpage
+\input{chapters/JakubKubicki.tex}
+
+\end{document}
